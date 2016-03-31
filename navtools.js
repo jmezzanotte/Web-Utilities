@@ -18,10 +18,11 @@ var navtools = {
 				}
 				
 				if(target.nextElementSibling != null) {
+					window.clearTimeout(navtools.submenus.timer); // important!
 					if (target.nextElementSibling.className == 'submenu'){
 						navtools.submenus.submenu = target.nextElementSibling;
 						navtools.submenus.submenu.style.visibility = 'visible';
-						window.clearTimeout(navtools.submenus.timer); // important! Wierd things happen if we don't clear the timer here
+						
 					}
 					
 					
@@ -29,7 +30,7 @@ var navtools = {
 				
 			}, // end openMenu
 			close(){
-				
+				window.clearTimeout(navtools.submenus.timer); // important - if timer is not cleared things go bad 
 				navtools.submenus.timer = window.setTimeout(function(){
 					// if submenu is open 
 					if(navtools.submenus.submenu){
