@@ -76,6 +76,6 @@ window.onload = function(){
 
 ```
 After running this code (along with some css styling) the result will look this:
-![navtools_ex1](https://cloud.githubusercontent.com/assets/11713216/14199107/516ac4c8-f796-11e5-8cfa-ee2b8bb0abc4.png)
+       ![navtools_ex1](https://cloud.githubusercontent.com/assets/11713216/14199107/516ac4c8-f796-11e5-8cfa-ee2b8bb0abc4.png)
 
 Test section 2 is assigned the navtools.submenus.open() function on the mouseover event and navtools.submenus.close(1000) on the mouse out event. Navtools will look for the next sibling of the 'section-2' element. Navtools identifies That next element by looking for the "submenu" class which is given the the unordered list element nested inside of section-2 element. In order for the submenu to stay active for a moment we assign the submenu ("section-2-submenu") the navtools.submenus.keep() function on the mouseover event. This function will clear the timer that was set on the element during the navtools.submenus.open function. In order to ensure the submenu closes once the user moves out of the element we assign the navtools.submenus.close() function to the mouseout event. 
