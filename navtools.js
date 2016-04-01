@@ -29,7 +29,7 @@ var navtools = {
 				}
 				
 			}, // end openMenu
-			close(){
+			close(keepTime){
 				window.clearTimeout(navtools.submenus.timer); // important - if timer is not cleared things go bad 
 				navtools.submenus.timer = window.setTimeout(function(){
 					// if submenu is open 
@@ -39,7 +39,7 @@ var navtools = {
 						console.log(navtools.submenus.timer);
 						
 					} // end if
-				}, 1000);
+				}, keepTime);
 				
 			}, 
 			keep : function(){
