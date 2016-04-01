@@ -12,11 +12,10 @@ project, and that is navtools.js. This script has mainly assisted me in creating
 
 #Package Contents 
 - navtools.js
+- effects.js
 
 ______________________________________________________________________________________________________________________________________
-#Usage
-
-navtools.js
+#navtools.js Getting Started
 - Creating a dynamic submenu :
 	Here is a quick sample of how to use this package using pure JavaScript. Here I have just created very simple navbar with one submenu. We use a simple unordered list with a single nested unordered list that we will use as our submenu. 
 
@@ -80,3 +79,6 @@ Test section 2 is assigned the navtools.submenus.open() function on the mouseove
 
 Limitations of navtools.js 
 - So far navtools.js does not support nested submenus. navtools.js works best and has been tested for use with a single submenu. This is a good idea for future development -- extending this script to handle nested submenus. For now stick with using this script for simple navigation bar applications only one submenu per navbar item. 
+_______________________________________________________________________________________________________________________________________
+# effects.js Getting Started
+
