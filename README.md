@@ -79,6 +79,7 @@ Test section 2 is assigned the navtools.submenus.open() function on the mouseove
 
 Limitations of navtools.js 
 - So far navtools.js does not support nested submenus. navtools.js works best and has been tested for use with a single submenu. This is a good idea for future development -- extending this script to handle nested submenus. For now stick with using this script for simple navigation bar applications only one submenu per navbar item. 
-_______________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________
+
 #effects.js Getting Started
 
