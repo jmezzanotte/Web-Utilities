@@ -17,8 +17,7 @@ ________________________________________________________________________________
 #Usage
 
 navtools.js
-- Creating a dynamic submenu.
-	-Here is a quick sample of how to use this package using pure JavaScript. Here I have just created very simple navbar with one submenu. We use a simple unordered list with a single nested unordered list that we will use as our submenu. 
+- #Creating a dynamic submenu :Here is a quick sample of how to use this package using pure JavaScript. Here I have just created very simple navbar with one submenu. We use a simple unordered list with a single nested unordered list that we will use as our submenu. 
 
 The HTML:
 ```
