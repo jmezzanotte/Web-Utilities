@@ -26,17 +26,17 @@ The HTML:
 ```
 <!-- Some example html markup for a generic nav bar   -->
 <nav>
-		<ul>
-			<li><a href="#">Test Section 1</a></li>
-			<li id="section-2"><a href="#">Test Section 2</a>
-			  <ul class="submenu" id="section-2-submenu">
-					<li><a href="#">Submenu Item 1</a></li>
-					<li><a href="#">Submenu Item 2</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Test Section 3</a></li>
-		</ul>
-	</nav>
+	<ul>
+		<li><a href="#">Test Section 1</a></li>
+		<li id="section-2"><a href="#">Test Section 2</a>
+		  <ul class="submenu" id="section-2-submenu">
+			<li><a href="#">Submenu Item 1</a></li>
+			<li><a href="#">Submenu Item 2</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Test Section 3</a></li>
+	</ul>
+</nav>
 
 ```
 
