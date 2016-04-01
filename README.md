@@ -75,3 +75,4 @@ window.onload = function(){
 }
 
 ```
+![navtools_ex1](https://cloud.githubusercontent.com/assets/11713216/14199107/516ac4c8-f796-11e5-8cfa-ee2b8bb0abc4.png)
