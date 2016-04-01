@@ -10,7 +10,9 @@ John Mezzanotte
 This project contains a javascript library that assists in common web development tasks. So far I have one utility in this
 project, and that is navtools.js. This script has mainly assisted me in creating dynamic submenus for navigation bars. 
 
-#navtools.js
+#Package Contents 
+- navtools.js
+
 ______________________________________________________________________________________________________________________________________
 #Usage
 
