@@ -1,14 +1,21 @@
 # Web-Utilities
-Project     : Web Utilities 
-Created-by  : John Mezzanotte
-Created-on  : 3-28-2016
-Description : This project contains a javascript library that assists in common web development tasks. So far I have one utility in this
-              project, and that is navtools. 
 
+#Author
+John Mezzanotte
 
+#Created On
+3-28-2016
 
-#Usage 
-Here is a quick sample of how to use this package using pure JavaScript
+#Overview
+This project contains a javascript library that assists in common web development tasks. So far I have one utility in this
+project, and that is navtools.js. This script has mainly assisted me in creating dynamic submenus for navigation bars. 
+
+#navtools.js
+______________________________________________________________________________________________________________________________________
+#Usage
+
+navtools.js -  Creating a dynamic submenu.
+Here is a quick sample of how to use this package using pure JavaScript. Here I have just created very simple navbar with one submenu. We use a simple unordered list with a single nested unordered list that we will use as our submenu. 
 
 The HTML:
 ```
