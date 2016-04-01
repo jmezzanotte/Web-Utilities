@@ -1,3 +1,5 @@
+// Written-by: John Mezzanotte
+// Date-create : 11-10-15
 var navtools = {
 		submenus : {
 			submenu : null, 
