@@ -50,9 +50,12 @@ effects = {
 				//var body = document.getElementsByTagName('body')[0];
 				
 				effects.removeEvent(document.documentElement, 'mousemove', effects.draggable.startDrag);
-				effects.draggable.element.style.zIndex = effects.draggable.startZIndex; // return z-idex to original value
-				effects.draggable.element = null;
-				
+				// we gen an error here if don't test for null element. It doesn't effect the functionality 
+				// but it does print an error to the console
+				if( effects.draggable.element != null ){
+					effects.draggable.element.style.zIndex = effects.draggable.startZIndex; // return z-idex to original value
+					effects.draggable.element = null;
+				}
 			},
 			enableDrag : function(e){
 				
